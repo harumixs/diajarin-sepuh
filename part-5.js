@@ -21,6 +21,12 @@
 
 let nama = "harumi", peran = "Penyihir";
 
+/**
+ * ```!!! ASK !!!```
+ * bedanya menggunakan 2 if dengan menggunakan else if apa ya
+ *
+ */
+
 if (!nama) {
     console.log('nama wajib diisi');
 } 
