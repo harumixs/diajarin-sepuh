@@ -80,10 +80,10 @@ function xo(str) {
   let countX = 0;
   let countO = 0;
 
-  for (let i = 0; i < str.length; i++) {
-    if (str[i] === "x") {
+  for (const element of str) {
+    if (element === "x") {
       countX++;
-    } else if (str[i] === "o") {
+    } else if (element === "o") {
       countO++;
     }
   }
